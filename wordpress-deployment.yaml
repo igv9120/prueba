@@ -9,7 +9,7 @@ spec:
     matchLabels:
       app: wordpress
       tier: frontend
-  replicas: 4
+  replicas: 8
   strategy:
     type: Recreate
   template:
